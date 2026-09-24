@@ -1,9 +1,9 @@
 import { ClientManager } from './websockets/ClientManager';
 import { OrderBookConsumer } from './consumers/OrderBookConsumer';
 import { TradeConsumer } from './consumers/TradeConsumer';
-// import { MetricsRegistry } from '@astrophage/nte-telemetry';
+// import { MetricsRegistry } from '@apex/nte-telemetry';
 
-// Logger implementation wrapping @astrophage/nte-logger
+// Logger implementation wrapping @apex/nte-logger
 const logger = {
     info: (msg: string, meta?: any) => console.log(`[INFO] ${msg}`, meta || ''),
     error: (msg: string, meta?: any) => console.error(`[ERROR] ${msg}`, meta || '')

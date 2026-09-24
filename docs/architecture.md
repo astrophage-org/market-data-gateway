@@ -10,8 +10,8 @@ The Market Data Gateway (MDG) bridges the internal trading core with the externa
 4. **WebSocket ClientManager** broadcasts delta updates and trade ticks to subscribed clients.
 
 ## Integrations
-- GitHub Org: Astrophage
+- GitHub Org: Apex
 - Sister Repos: 
-  - `astrophage/order-matching-engine`
-  - `astrophage/compliance-surveillance-monitor`
-  - `astrophage/trade-settlement-system`
+  - `apex/order-matching-engine`
+  - `apex/compliance-surveillance-monitor`
+  - `apex/trade-settlement-system`
