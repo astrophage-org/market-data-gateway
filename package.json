@@ -1,5 +1,5 @@
 {
-  "name": "@astrophage/market-data-gateway",
+  "name": "@apex/market-data-gateway",
   "version": "1.0.0",
   "description": "GFMG NTE Market Data Gateway",
   "main": "dist/index.js",

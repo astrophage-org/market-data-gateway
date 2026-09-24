@@ -2,7 +2,7 @@ syntax = "proto3";
 package nte.marketdata;
 
 option java_package = "com.gfmg.nte.marketdata";
-option go_package = "github.com/astrophage/market-data-gateway/protos";
+option go_package = "github.com/apex/market-data-gateway/protos";
 
 // Consumed from nte.orderbook.snapshots topic published by order-matching-engine
 message OrderBookSnapshot {
